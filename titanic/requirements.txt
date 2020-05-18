@@ -2,3 +2,6 @@ click
 Sphinx
 coverage
 flake8
+pandas
+numpy
+jupyter
