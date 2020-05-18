@@ -9,6 +9,10 @@ setup:
 requirements:
 	$(PYTHON) -m pip install -r requirements.txt
 
+.PHONY: freeze
+freeze:
+	$(PYTHON) -m pip freeze > requirements.txt
+
 .PHONY: docs
 docs:
 	$(MAKE) -C docs html
