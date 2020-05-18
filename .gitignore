@@ -1,0 +1,4 @@
+# NOTE: Each project directory typically handles its own gitignore
+
+# Virtual environments and python artifacts
+.venv
